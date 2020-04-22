@@ -15,4 +15,8 @@ export default createGlobalStyle`
         color: #fff;
         -webkit-font-smoothing: antialiased;
     }
+
+    img {
+        max-width: 100%;
+    }
 `;

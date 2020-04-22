@@ -15,7 +15,7 @@ export default function ProjectsHolder() {
     return(
         <Container>
             { projects.map(project => (
-                <Project title={ project.name } description={ project.description } image={ project.image} />
+                <Project key={ project.id } title={ project.name } description={ project.description } image={ project.image} link={ project.link } />
             )) }
         </Container>
     );
