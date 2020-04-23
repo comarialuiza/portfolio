@@ -13,7 +13,7 @@ export default function ProjectsHolder() {
     return(
         <Container>
             { projects.map(project => (
-                <Project key={ project.id } project={ project } stack={ [ project.stack ] } />
+                <Project key={ project.id } project={ project } />
             )) }
         </Container>
     );

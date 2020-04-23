@@ -1,5 +1,5 @@
 export function loadProjects() {
-    return[
+    return [
         {
             id: 1,
             name: "Natours", 
@@ -47,7 +47,7 @@ export function loadProjects() {
                     id: 1,
                     name: "React",
                     icon: "react.svg"
-                }
+                },
             ]
         },
         {
@@ -62,6 +62,11 @@ export function loadProjects() {
                     id: 1,
                     name: "React",
                     icon: "react.svg"
+                },
+                {
+                    id: 2,
+                    name: "Styled components",
+                    icon: "styled-components.png"
                 }
             ]
         }

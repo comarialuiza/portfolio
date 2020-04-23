@@ -35,7 +35,6 @@ export const Container = styled.div`
             max-width: max-content;
             font-size: 11px;
             padding: 10px 15px;
-            margin-top: 20px;
             border-radius: 3px;
 
             &.linkWebsite {
@@ -48,4 +47,11 @@ export const Container = styled.div`
             }
         }
     }
+`;
+
+export const StackContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
 `;
