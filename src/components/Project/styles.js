@@ -1,7 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    padding: 20px;
+    text-align: justify;
+    
+    @media (min-width: 481px) {
+        padding: 20px;
+    }
+
+    @media (max-width: 480px) {
+        margin-bottom: 30px;
+    }
 
     h3 {
         text-transform: uppercase;
@@ -14,15 +22,30 @@ export const Container = styled.div`
         line-height: 19px;
     }
 
-    a {
-        background-color: #F8646C;
-        color: #fff;
-        display: block;
-        text-decoration: none;
-        text-transform: uppercase;
-        max-width: max-content;
-        font-size: 12px;
-        padding: 10px 20px;
-        margin-top: 20px;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .link {
+            color: #fff;
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            max-width: max-content;
+            font-size: 11px;
+            padding: 10px 15px;
+            margin-top: 20px;
+            border-radius: 3px;
+
+            &.linkWebsite {
+                background-color: #F8646C;
+                margin-right: 10px;
+            }
+
+            &.linkGithub {
+                background-color: #424556;
+            }
+        }
     }
 `;

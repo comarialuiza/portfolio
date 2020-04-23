@@ -10,12 +10,10 @@ const data = loadProjects();
 export default function ProjectsHolder() {
     const [ projects, setProjects ] = useState(data);
 
-    console.log(data);
-
     return(
         <Container>
             { projects.map(project => (
-                <Project key={ project.id } project={ project } />
+                <Project key={ project.id } project={ project } stack={ [ project.stack ] } />
             )) }
         </Container>
     );
