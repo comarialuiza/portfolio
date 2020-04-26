@@ -92,6 +92,7 @@ export function loadProjects() {
             id: 5,
             name: "Portfolio",
             description: "Desenvolvi essa aplicação para expor os projetos pessoais que tenho desenvolvido. Ela consome um JSON com as informações de cada projeto, e retorna um card para cada um deles, contendo título, descrição, link da aplicação, link do repositório no GitHub, imagem e a stack utilizada no desenvolvimento.",
+            link: "https://comarialuiza.netlify.app/",
             github: "https://github.com/comarialuiza/portfolio",
             image: "portfolio.png",
             stack: [
