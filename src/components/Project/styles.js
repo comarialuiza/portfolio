@@ -2,10 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     text-align: justify;
-    
-    @media (min-width: 481px) {
-        padding: 20px;
-    }
+    background-color: #fff;
+    padding: 20px;
 
     @media (max-width: 480px) {
         margin-bottom: 30px;

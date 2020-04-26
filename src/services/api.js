@@ -11,12 +11,26 @@ export function loadProjects() {
                 { 
                     id: 1,
                     name: "Node",
-                    icon: "node.svg"
+                    icon: "node.svg",
+                    link: "https://nodejs.org/"
                 },
                 {
                     id: 2,
+                    name: "Express",
+                    icon: "express.svg",
+                    link: "https://expressjs.com/"
+                },
+                {
+                    id: 3,
+                    name: "MongoDB",
+                    icon: "mongodb.svg",
+                    link: "https://www.mongodb.com/"
+                },
+                {
+                    id: 4,
                     name: "Pug",
-                    icon: "pug.svg"
+                    icon: "pug.svg",
+                    link: "https://pugjs.org/"
                 }
             ]
         },
@@ -31,7 +45,8 @@ export function loadProjects() {
                 { 
                     id: 1,
                     name: "React",
-                    icon: "react.svg"
+                    icon: "react.svg",
+                    link: "https://reactjs.org/"
                 }
             ]
         },
@@ -46,7 +61,8 @@ export function loadProjects() {
                 { 
                     id: 1,
                     name: "React",
-                    icon: "react.svg"
+                    icon: "react.svg",
+                    link: "https://reactjs.org/"
                 },
             ]
         },
@@ -61,12 +77,14 @@ export function loadProjects() {
                 { 
                     id: 1,
                     name: "React",
-                    icon: "react.svg"
+                    icon: "react.svg",
+                    link: "https://reactjs.org/"
                 },
                 {
                     id: 2,
                     name: "Styled components",
-                    icon: "styled-components.png"
+                    icon: "styled-components.png",
+                    link: "https://styled-components.com/"
                 }
             ]
         }

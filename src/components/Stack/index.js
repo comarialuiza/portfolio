@@ -5,7 +5,7 @@ import { Container } from './styles';
 export default function Stack({ data }) {
     return(
         <Container>
-            <img src={ `./icons/${ data.icon }` } alt={ data.name } />
+            <a href={ data.link } target="_blank" rel="noopener noreferrer"><img src={ `./icons/${ data.icon }` } alt={ data.name } /></a>
         </Container>
     );
 }
