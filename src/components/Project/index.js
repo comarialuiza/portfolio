@@ -17,7 +17,7 @@ export default function Project({ project }) {
             </StackContainer>
 
             <div>
-                <a href={ project.link } target="_blank" rel="noopener noreferrer" className="link linkWebsite">Acessar</a>
+                { project.link && <a href={ project.link } target="_blank" rel="noopener noreferrer" className="link linkWebsite">Acessar</a> }
                 <a href={ project.github } target="_blank" rel="noopener noreferrer" className="link linkGithub">Repositório</a>
             </div>
         </Container>

@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    padding: 20px;
-    min-height: 100vh;
     color: #fff;
     display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 
     .visual, .descriptive {
         padding: 20px;
@@ -14,11 +12,14 @@ export const Container = styled.div`
 
     @media (max-width: 1140px) {
         flex-direction: column;
+        min-height: 100vh;
+        padding: 20px;
     }
 
     @media (min-width: 1141px) {
         max-width: 1140px;
         margin: 0 auto;
+        padding: 100px 20px;
 
         .visual, .descriptive {
             width: 50%;
@@ -37,10 +38,6 @@ export const Container = styled.div`
                 margin: 0 auto;
                 display: block;
             }
-        }
- 
-        img {
-            max-width: 200px;
         }
     }
 
@@ -65,11 +62,11 @@ export const Container = styled.div`
         }
 
         .links {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 20px;
-            max-width: 230px;
-            margin: 40px auto 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto 0;
 
             a {
                 color: #fff;
@@ -82,6 +79,11 @@ export const Container = styled.div`
                 align-items: center;
                 justify-content: center;
                 border-radius: 3px;
+                margin-right: 20px;
+
+                @media (max-width: 600px) {
+                    margin-top: 10px;
+                }
 
                 svg {
                     height: 12px;
