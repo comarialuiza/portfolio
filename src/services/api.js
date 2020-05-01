@@ -109,6 +109,28 @@ export function loadProjects() {
                     link: "https://styled-components.com/"
                 }
             ]
+        },
+        { 
+            id: 5,
+            name: "Daily Dog",
+            description: "Aplicação desenvolvida utilizando React, Axios e Styled Components. Consome a API do Dog CEO e toda vez que o botão é clicado, retorna uma foto nova de um cachorro. Enquanto o consumo da API está acontecendo há um loader, e foram utilizados props para passar a imagem para o Styled Components.",
+            link: "https://healthydailydog.netlify.app/",
+            github: "https://github.com/comarialuiza/dailydog",
+            image: "daily-dog.png",
+            stack: [
+                { 
+                    id: 1,
+                    name: "React",
+                    icon: "react.svg",
+                    link: "https://reactjs.org/"
+                },
+                {
+                    id: 2,
+                    name: "Styled components",
+                    icon: "styled-components.png",
+                    link: "https://styled-components.com/"
+                }
+            ]
         }
     ]
 }
