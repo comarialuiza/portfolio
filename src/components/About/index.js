@@ -22,7 +22,7 @@ export default function About() {
                     <a href="https://github.com/comarialuiza" target="_blank" rel="noopener noreferrer"><FiGithub /> Github</a>
                 </div>
                 <div className="links">
-                    <a href="tel:41991212363" target="_blank" rel="noopener noreferrer"><FiPhone /> (41) 9 9121 2363</a>
+                    <a href="https://api.whatsapp.com/send?phone=5541991212363" target="_blank" rel="noopener noreferrer"><FiPhone /> (41) 9 9121 2363</a>
                     <a href="mailto:co.maria.luiza@gmail.com" target="_blank" rel="noopener noreferrer"><FiMail /> co.maria.luiza@gmail.com</a>
                 </div>
             </div>
